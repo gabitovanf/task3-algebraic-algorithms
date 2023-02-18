@@ -49,10 +49,10 @@ tester1.setupReportStrings(reportTrueDetails = reportTrueDetails, reportFalseDet
 tester2.setupReportStrings(reportTrueDetails = reportTrueDetails, reportFalseDetails = reportFalseDetails)
 tester3.setupReportStrings(reportTrueDetails = reportTrueDetails, reportFalseDetails = reportFalseDetails)
 
-# tester0.testdir('./tests/4.Fibo', './report/4.Fibo.report.recursion.01.txt')
+tester0.testdir('./tests/4.Fibo', './report/4.Fibo.report.recursion.01.txt')
 # tester1.testdir('./tests/4.Fibo', './report/4.Fibo.report.iteration.01.txt')
 # tester2.testdir('./tests/4.Fibo', './report/4.Fibo.report.goldenRatioFormula.01.txt')
-tester3.testdir('./tests/4.Fibo', './report/4.Fibo.report.matrixPower.01.txt')
+# tester3.testdir('./tests/4.Fibo', './report/4.Fibo.report.matrixPower.01.txt')
 # tester3.testdir('./tests/temp', './report/TEMP.report.matrixPower.01.txt')
 
 
